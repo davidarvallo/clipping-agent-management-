@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gsap-skills",
+    "repo": "greensock/gsap-skills",
+    "revision": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+    "purpose": "Animation guidance for HyperFrames"
+  },
+  {
+    "id": "blender-mcp",
+    "repo": "ahujasid/mcp-for-blender",
+    "revision": "a5a8acf2c6ae44a73670e0caf34663f16456d645",
+    "purpose": "Optional AI-controlled 3D authoring"
+  },
+  {
+    "id": "shotcraft",
+    "repo": "Vincentwei1021/video-shotcraft",
+    "revision": "59f3e9b9e936ff2bce0e18446226d770a3f2f61f",
+    "purpose": "Product promos using a separate Remotion workflow"
+  },
+  {
+    "id": "remotion-skills",
+    "repo": "remotion-dev/skills",
+    "revision": "89c8afa3eee9cdd83838ac31979c2ba1384615aa",
+    "purpose": "Guidance for the optional Remotion workflow"
+  },
+  {
+    "id": "manim",
+    "repo": "ManimCommunity/manim",
+    "revision": "37056b0e6e23df7be1f7087a98eb2fb5c81737f2",
+    "purpose": "Mathematical and educational animations"
+  },
+  {
+    "id": "three",
+    "repo": "mrdoob/three.js",
+    "revision": "6d91309bfcf9c2779f32dd98b61fcc5415a74912",
+    "purpose": "Browser 3D scenes"
+  },
+  {
+    "id": "react-three-fiber",
+    "repo": "pmndrs/react-three-fiber",
+    "revision": "d74622ea8ed717f7212d7e19d65ff3e325508389",
+    "purpose": "Three.js for React projects only"
+  },
+  {
+    "id": "matter",
+    "repo": "liabru/matter-js",
+    "revision": "b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+    "purpose": "2D physics scenes"
+  },
+  {
+    "id": "rapier",
+    "repo": "dimforge/rapier",
+    "revision": "475caa3ff4646fd9a796b67d14116256f4962bc7",
+    "purpose": "2D and 3D physics scenes"
+  },
+  {
+    "id": "particles",
+    "repo": "tsparticles/tsparticles",
+    "revision": "814efd3b661df2e0594168430926331ff753a0e6",
+    "purpose": "Particle effects"
+  },
+  {
+    "id": "p5",
+    "repo": "processing/p5.js",
+    "revision": "be49f97f86b290a01542eb1436045e5029e0bd11",
+    "purpose": "Generative visuals"
+  },
+  {
+    "id": "lottie",
+    "repo": "airbnb/lottie-web",
+    "revision": "bede03d25d232826e0c9dca1733d542d8a7754fb",
+    "purpose": "Play exported Lottie animations"
+  }
+]
