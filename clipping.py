@@ -16,6 +16,10 @@ COMMANDS = {
 }
 
 OPTIONAL = {
+    "ffmpeg": "Install FFmpeg: https://ffmpeg.org/download.html",
+    "ffprobe": "Included with FFmpeg",
+    "blender": "Install Blender: https://www.blender.org/download/",
+    "manim": "Install Manim: https://docs.manim.community/en/stable/installation.html",
     "hyperframes": "npm install --save-dev hyperframes (requires Node.js 22+ and FFmpeg)",
     "auto-editor": "Install Auto-Editor: https://auto-editor.com/installing",
     "pascal": "Install @pascal-app/cli: https://github.com/pascalorg/editor",
@@ -68,9 +72,13 @@ def main() -> int:
     if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
         print("Usage: python3 clipping.py COMMAND [tool arguments]")
         print("Commands: " + ", ".join(COMMANDS))
+        print("Toolkit: toolkit-list, toolkit-fetch TOOL_NAME, ffmpeg, ffprobe, blender, manim")
         print("Optional: video-status, video-init, video-preview, video-render, trim, pascal-editor")
         return 0 if len(sys.argv) > 1 else 2
     command = sys.argv[1]
+    if command in ("toolkit-list", "toolkit-fetch", "ffmpeg", "ffprobe", "blender", "manim"):
+        from toolkit import main as toolkit_main
+        return toolkit_main(command, sys.argv[2:])
     if command in ("video-status", "video-init", "video-preview", "video-render", "trim", "pascal-editor"):
         return optional_tool(command, sys.argv[2:])
     if command not in COMMANDS:
