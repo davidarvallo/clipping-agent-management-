@@ -51,3 +51,17 @@ HyperFrames projects contain editable HTML/CSS/JS and media. Preview the episode
 - [HyperFrames](https://github.com/heygen-com/hyperframes), [Auto-Editor](https://github.com/WyattBlue/auto-editor), and [Pascal Editor](https://github.com/pascalorg/editor): optional external programs. Their source code is not copied into this repo.
 
 The original repositories remain independent. These folders are separate to avoid filename and command collisions. Nothing in this repository connects to Instagram, YouTube, Higgsfield, or Blotato automatically or publishes a post without a separate setup.
+
+## Production toolkit
+
+The [optional toolkit](docs/production-toolkit.md) adds pinned source fetching for GSAP guidance, Blender MCP, Shotcraft/Remotion guidance, Manim, Three.js, React Three Fiber, Matter.js, Rapier, tsParticles, p5.js and Lottie. These are selected per project; they do not load into research commands.
+
+```bash
+python3 clipping.py toolkit-list
+python3 clipping.py toolkit-fetch gsap-skills
+python3 clipping.py ffmpeg -version
+python3 clipping.py ffprobe -v error -show_streams -of json episode.mp4
+python3 -m unittest discover -s tests -v
+```
+
+`ffmpeg`, `ffprobe`, `blender` and `manim` commands invoke separately installed programs. The source catalog is in `integrations/toolkit.json`. Downloading source does not install dependencies, activate skills or connect accounts. See the toolkit guide for project-specific setup and validation boundaries.
