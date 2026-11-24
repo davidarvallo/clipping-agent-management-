@@ -8,3 +8,10 @@ node_modules/
 external/
 .venv/
 media/
+
+runs/
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
