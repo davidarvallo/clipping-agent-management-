@@ -65,3 +65,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 `ffmpeg`, `ffprobe`, `blender` and `manim` commands invoke separately installed programs. The source catalog is in `integrations/toolkit.json`. Downloading source does not install dependencies, activate skills or connect accounts. See the toolkit guide for project-specific setup and validation boundaries.
+
+## Discovery and performance research
+
+See [research toolkit setup](docs/research-toolkit.md) for Niche Finder, reference video analysis, Apify collection and the Google API client. These are optional pinned sources; credentials, live service setup and data adapters remain separate. Run references through `python scripts/analyze_reference.py URL` after installing its dependencies. Each run receives an isolated folder and verified output checks.
