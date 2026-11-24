@@ -70,5 +70,29 @@
     "repo": "airbnb/lottie-web",
     "revision": "bede03d25d232826e0c9dca1733d542d8a7754fb",
     "purpose": "Play exported Lottie animations"
+  },
+  {
+    "id": "niche-finder",
+    "repo": "pandich93/youtube-niche-finder",
+    "revision": "bde0dc52916d32ad0f7411b745e00e3dd411e03a",
+    "purpose": "YouTube discovery and outlier tracking; requires API key and service setup"
+  },
+  {
+    "id": "video-analyzer",
+    "repo": "udaysrinu/viral-video-analyzer",
+    "revision": "21b23891da50902048a60693f68fc5ba57e97e7b",
+    "purpose": "Reference video frames and transcripts; use scripts/analyze_reference.py"
+  },
+  {
+    "id": "apify-mcp",
+    "repo": "apify/apify-mcp-server",
+    "revision": "1ff390b34e2cc5670b42f18635832503daf849bd",
+    "purpose": "Optional social data collection; requires account and usage budget"
+  },
+  {
+    "id": "google-api-client",
+    "repo": "googleapis/google-api-python-client",
+    "revision": "354d888f9a923f5317ba81a2eba16c43a037c65b",
+    "purpose": "Building block for authorized channel analytics; adapter not yet implemented"
   }
 ]
